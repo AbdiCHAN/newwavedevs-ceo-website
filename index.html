@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewWave Devs - Professional Software Startup</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo"><img src="/home/incredius/newwavedevs-ceo-website/images/newwavedevs.png.png" alt="NewWave Devs Logo"></div>
+    <ul>
+      <li><a href="#ceo">CEO</a></li>
+      <li><a href="#engineers">Engineers</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>NewWave Devs</h1>
+      <p id="typing">Innovative Software Solutions for the Modern World</p>
+      <a href="#engineers" class="btn">Meet Our Team</a>
+    </div>
+  </section>
+
+  <!-- CEO Section -->
+  <section id="ceo" class="section">
+    <h2>CEO & Founder</h2>
+    <div class="ceo-card">
+      <div class="ceo-photo">
+        <img src="images/ceoimage.png.png" alt="Abdirahman Cabdi - CEO & Engineer">
+      </div>
+      <div class="ceo-info">
+        <h3>Abdirahman Cabdi</h3>
+        <h4>CEO & Lead Software Engineer</h4>
+        <p>Specializes in both Frontend and Backend development, overseeing all projects, mentoring engineers, and ensuring top-quality software solutions for clients.</p>
+        <a href="mailto:speedextra008@gmail.com" class="contact-btn">Contact CEO</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Engineers Section -->
+  <section id="engineers" class="section">
+    <h2>Our Software Engineers</h2>
+    <div class="grid">
+      <!-- Engineer cards will be generated dynamically by JS -->
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
