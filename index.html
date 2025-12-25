@@ -3,63 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewWave Devs - Professional Software Startup</title>
+  <title>NewWaveDevs - Innovative Software Solutions</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <div class="logo"><img src="/home/incredius/newwavedevs-ceo-website/images/newwavedevs.png.png" alt="NewWave Devs Logo"></div>
-    <ul>
-      <li><a href="#ceo">CEO</a></li>
-      <li><a href="#engineers">Engineers</a></li>
-    </ul>
-  </nav>
+
+  <!-- Full-page background overlay -->
+  <div class="background-overlay"></div>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <header class="hero-section">
+    <img src="images/newwavedevshero.png.jpeg" alt="NewWaveDevs Hero" class="hero-image">
     <div class="hero-text">
-      <h1>NewWave Devs</h1>
-      <p id="typing">Innovative Software Solutions for the Modern World</p>
-      <a href="#engineers" class="btn">Meet Our Team</a>
+      <h1>NewWaveDevs</h1>
+      <p>Delivering cutting-edge software solutions with precision, creativity, and excellence. We specialize in developing applications, websites, and custom software fully remotely for clients globally.</p>
+      <a href="#about" class="cta-btn">Discover More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About NewWaveDevs</h2>
+    <div class="about-content">
+      <p>
+        NewWaveDevs is a modern software engineering startup driven by innovation, collaboration, and technical excellence. 
+        Our team of 15 highly skilled engineers specializes in designing, developing, and maintaining complex applications, websites, and software solutions tailored to meet each client's unique requirements.  
+        Operating fully remotely, we offer flexible, scalable, and efficient software services without geographical limitations, ensuring timely delivery, professional standards, and seamless communication across all projects.  
+        At NewWaveDevs, we combine creativity with industry best practices, utilizing modern frameworks, agile methodologies, and cutting-edge technology to bring transformative ideas to life. 
+        Our mission is to provide fully customized, reliable, and high-performance solutions that empower businesses and individuals to succeed in a digital-first world.
+      </p>
     </div>
   </section>
 
-  <!-- CEO Section -->
-  <section id="ceo" class="section">
-    <h2>CEO & Founder</h2>
-    <div class="ceo-card">
-      <div class="ceo-photo">
-        <img src="images/ceoimage.png.png" alt="Abdirahman Cabdi - CEO & Engineer">
-      </div>
-      <div class="ceo-info">
-        <h3>Abdirahman Cabdi</h3>
-        <h4>CEO & Lead Software Engineer</h4>
-        <p>Specializes in both Frontend and Backend development, overseeing all projects, mentoring engineers, and ensuring top-quality software solutions for clients.</p>
-        <a href="mailto:speedextra008@gmail.com" class="contact-btn">Contact CEO</a>
-      </div>
+  <!-- Leadership Section -->
+  <section id="leadership" class="team-section">
+    <h2>Our Leadership</h2>
+
+    <!-- CEO Card -->
+    <div class="leader-card founder-card">
+      <img src="images/theceoimage.png.jpeg" alt="CEO - Abdirahman Cabdi" class="founder-photo">
+      <h3>Abdirahman Cabdi - CEO</h3>
+      <p>Abdirahman Cabdi, CEO of NewWaveDevs, provides visionary leadership and technical expertise, inspiring a culture of innovation, professionalism, and excellence. He guides the team to deliver high-quality software solutions while maintaining strong communication and client satisfaction.</p>
+    </div>
+
+    <!-- Director Card -->
+    <div class="leader-card">
+      <h3>Abdullahi Arab - Director</h3>
+      <p>Abdullahi Arab, Director at NewWaveDevs, ensures smooth project execution, operational efficiency, and the implementation of best practices across all development initiatives. He supports the engineering team to consistently deliver reliable, innovative, and scalable solutions.</p>
     </div>
   </section>
 
   <!-- Engineers Section -->
-  <section id="engineers" class="section">
-    <h2>Our Software Engineers</h2>
-    <div class="grid">
-      <!-- Engineer cards will be generated dynamically by JS -->
+  <section id="engineers" class="engineers-section">
+    <h2>Our Engineers</h2>
+    <div class="engineers-grid" id="engineers-grid">
+      <!-- Dynamically populated via JS -->
     </div>
   </section>
 
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <h2 id="modalTitle"></h2>
-      <p id="modalDescription"></p>
-    </div>
-  </div>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you are interested in our services or want to discuss a project, reach out directly at: 
+      <a href="mailto:speedextra008@gmail.com">speedextra008@gmail.com</a>
+    </p>
+  </section>
 
   <script src="js/main.js"></script>
 </body>
 </html>
-
